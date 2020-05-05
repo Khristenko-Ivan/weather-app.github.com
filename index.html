@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weahter App</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center top80">Weather</h1>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-sm-4">
+                <div class="weather">
+                    <input type="text" autocomplete="off" class="search" placeholder="Search for a city...">
+                    <div class="weather-top">
+                        <div class="weather-top--info text-center">
+                            <div class="city">
+                                London
+                            </div>
+                            <div class="data">
+                               Today
+                            </div>
+                            <div class="temp">
+                                10 &deg;
+                            </div>
+                            <div class="info">
+                                Clouds
+                            </div>
+                        </div>
+                        <div class="weather-top--sys text-center">
+                            <span class="max">Max 22 &deg;</span>
+                            /
+                            <span class="min">Min 12 &deg;</span>
+                        </div>
+                    </div>
+                    <div class="weather-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <span class="humidity">Humidity</span>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="pressure">Pressure</span>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="speed">Speed</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/weather.js"></script>
+</body>
+</html>
